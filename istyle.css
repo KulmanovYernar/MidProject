@@ -1,0 +1,439 @@
+body, html {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;;
+    font-size: 24px;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.full-screen-div {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.navbar{
+    background-color: #171717;
+    color: #dce7c3;
+}
+#home{
+    height: 28rem;
+    background-image: url(https://cyberloga.ru/local/templates/cyberloga/img/page-header-bg.jpg);
+    background-color: #111;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    padding: 0 40px;
+}
+
+
+
+
+.imagees{
+    text-align: center;
+    padding: 8px;
+}
+
+a{
+    color: #c1ccd8;
+}
+nav{
+    color: #c1ccd8;
+    height: 3rem;
+}
+
+
+.head{
+    text-align: center;
+}
+
+h1{
+        font-family: "Futura PT", sans-serif;
+        padding-top: 50px;
+        font-weight: 700;
+}
+
+
+
+
+.text_label{
+    position: relative;
+    left: 10rem;
+    font-family: "Futura PT", sans-serif;
+    font-weight: 700;
+   padding-left: 15px;
+}
+
+.text_label h3{
+    font-size: 1rem;
+}
+
+.list{
+    width: 35rem;
+    height: 5rem;
+}
+
+#box1{
+    position:relative;
+    height: 22rem;
+    background-color: #24150e;
+    margin: 0;
+}
+.box1img{
+    padding-top: 20px;
+    padding-left: 50px;
+    height: 50%;
+    width: 50%;
+}
+.col-6 {
+    padding-top: 70px;
+}
+
+
+#box2{
+    background-image: url("https://cyberloga.ru/local/templates/cyberloga/img/price-game-bg.jpg");
+    background-color: #111;
+background-size: cover; 
+background-position: center;
+background-repeat: no-repeat;
+}
+
+
+
+
+#section-info {
+    padding: 90px 0;
+    background-color: #f3f3f3;
+}
+
+.section-info__inner {
+    display: flex;
+    align-items: stretch;
+}
+
+.container {
+    max-width: 1270px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.block-info:first-child {
+    margin-right: 20px;
+}
+
+.block-info .heading--bottom-line {
+    margin-bottom: 30px;
+}
+
+.block-info .heading--bottom-line .heading__title {
+    padding-bottom: 11px;
+}
+
+
+.block-info .heading__title {
+    font-size: 36px;
+}
+
+.heading--bottom-line .heading__title {
+    position: relative;
+    padding-bottom: 8px;
+}
+.heading--color-black .heading__title {
+    color: #000;
+}
+
+
+footer{
+    background-color:#363130;
+    font-family: 'Dosis', sans-serif;;
+}
+
+.step{
+    position: relative;
+    top: 3rem;
+    text-align: center;
+}
+
+
+.facebook::before {
+    font-family: "Font Awesome 5 Brands"; 
+	font-weight: 400;
+	content: "\f09a";
+}
+
+.advantages__item {
+  max-width: 164px;
+  margin-left: 10px;
+  flex: 0 1 auto;
+  width: auto;
+  margin-bottom: 22px;
+}
+
+.advantages__descr {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.advantages__number {
+   position: relative;
+    font-family: "Futura PT Demi", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 0.8;
+    color: #fff;
+    margin-bottom: 9px;
+    padding-bottom: 15px;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.advantages__number::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;    
+    width: 50px;
+    height: 1px;
+    background-color: #8cc63f;
+}
+
+ul{
+    padding: 0;
+}
+
+
+.price-game__inner {
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.price-game__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 90px 15px 84px;
+}
+
+.price-game__content {
+    padding-left: 90px;
+    padding-top: 36px;
+    flex-grow: 1;
+    margin-right: 21px;
+    color: #fff;
+}
+.price-game__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2;
+    color: #fff;
+    margin-bottom: 49px;
+}
+
+.price-game__btn .btn {
+    font-size: 20px;
+    max-width: 208px;
+    width: 100%;
+    height: 60px;
+}
+
+.btn--transparent {
+    background-color: transparent;
+    border: 1px solid #0071bc;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 320px;
+    width: 100%;
+    height: 60px;
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    line-height: 1;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+        transition: all 0.3s ease;
+}
+
+.feature-table {
+    margin-left: 130px;
+    flex: 0 0 auto;
+    max-width: 610px;
+    width: 100%;
+    border: 1px solid rgba(92, 92, 92, 0.5);
+}
+
+.feature-table__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(92, 92, 92, 0.5);
+}
+
+.feature-table__cell {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 249px;
+    text-align: center;
+    border-right: 1px solid rgba(92, 92, 92, 0.5);
+}
+
+.feature-table__icon {
+    margin-top: 40px;
+    margin-bottom: 37px;
+}
+
+
+
+.heading__title {
+    font-family: "Futura PT Demi", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.25;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.block-info {
+    width: 50%;
+    padding: 31px 40px 44px;
+    background-color: #fff;
+}
+
+
+.top-games__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -20px;
+}
+
+.top-games__item {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.top-games__link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.equipment__item {
+    margin-bottom: 27px;
+}
+
+.equipment__heading {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 12px;
+}
+
+
+.equipment__title {
+    font-weight: 700;
+    font-size: 27px;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.equipment__list-item {
+    display: flex;
+    color:#000;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: -25px;
+}
+
+.equipment__list-item::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 1px;
+    flex: 0 0 auto;
+    margin-right: 18px;
+    background-color: #8cc63f;
+}
+
+
+
+.characteristic {
+    padding: 101px 0 83px;
+    background-image: url("https://cyberloga.ru/local/templates/cyberloga/img/characteristic-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30rem;
+}
+
+.characteristic .heading {
+    margin-bottom: 58px;
+}
+
+
+.characteristic .heading__title {
+    font-size: 60px;
+}
+
+.heading--bottom-line .heading__title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 85px;
+    height: 1px;
+    background-color: #8cc63f;
+}
+
+.characteristic__list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+
+.characteristic__item {
+    max-width: calc(25% - 30px);
+    width: 100%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    flex: 1 0 auto;
+}
+
+.characteristic__icon {
+    height: 71px;
+    margin: 25px 0;
+}
+.characteristic__title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 17px;
+}
+
+.characteristic__text {
+    font-size: 20px;
+    color: #a0a0a0;
+    margin-bottom: 0;
+}
